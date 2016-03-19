@@ -20,7 +20,7 @@ Make sure you have the following installed:
 3. Android Support Repository >= 17 (for Android Support Library)
 4. Android NDK (download & extraction instructions [here](http://developer.android.com/ndk/downloads/index.html))
 
-Point Gradle to your Android SDK: either have `$ANDROID_SDK` and `$ANDROID_NDK ` defined, or create a local.properties file in the root of your react-native checkout with the following contents:
+Point Gradle to your Android SDK: either have `$ANDROID_SDK` and `$ANDROID_NDK ` defined, or update the file android/local.properties to look like this:
 
 ```
 sdk.dir=absolute_path_to_android_sdk
